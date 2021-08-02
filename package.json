@@ -1,0 +1,19 @@
+{
+  "name": "parser-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sam-2019",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "parse-dashboard": "^2.1.0",
+    "parse-server": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
